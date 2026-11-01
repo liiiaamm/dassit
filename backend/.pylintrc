@@ -1,0 +1,22 @@
+[MASTER]
+load-plugins=pylint_django
+django-settings-module=restApi.settings
+
+[MESSAGES CONTROL]
+disable=
+    missing-class-docstring,
+    missing-function-docstring,
+    missing-module-docstring,
+    too-few-public-methods,
+    import-outside-toplevel
+
+[FORMAT]
+max-line-length=100
+indent-string='    '
+
+[BASIC]
+good-names=i,j,k,ex,Run,_,id,pk
+
+[DESIGN]
+max-args=7
+max-attributes=10

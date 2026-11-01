@@ -1,0 +1,104 @@
+.room {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  background-color: #12121f;
+  border-bottom: 1px solid #2a2a42;
+  padding: 0.8rem 1.2rem;
+  font-weight: bold;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.bubble {
+  max-width: 65%;
+  padding: 0.7rem 1rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  word-break: break-word;
+  color: #e2e2f0;
+}
+
+.userBubble {
+  align-self: flex-end;
+  background-color: #1e1e38;
+}
+
+.aiBubble {
+  align-self: flex-start;
+  background-color: #161628;
+  border: 1px solid #2a2a42;
+}
+
+.inputArea {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 1rem;
+  border-top: 1px solid #2a2a42;
+  background-color: #12121f;
+}
+
+.textInput {
+  flex: 1;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #2a2a42;
+  color: #e2e2f0;
+  font-size: 0.95rem;
+  padding: 0.4rem 0;
+  outline: none;
+  font-family: inherit;
+}
+
+.textInput::placeholder { color: #8888aa; }
+
+.sendBtn {
+  background-color: #3fcdf7;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 1rem;
+  color: #8888aa;
+}
+
+.errorText { color: #ff6b6b; }
+
+.retryBtn {
+  background-color: #3fcdf7;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  color: #000;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.botImg {
+  width: 180px;
+  border-radius: 12px;
+  opacity: 0.8;
+}

@@ -1,0 +1,103 @@
+.page {
+  flex: 1;
+  display: flex;
+}
+
+.imageCol {
+  flex: 1;
+  background: linear-gradient(to right, #3fcdf7, #d117f6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.img {
+  width: 85%;
+  max-width: 400px;
+  border-radius: 12px;
+}
+
+.tagline {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.formCol {
+  flex: 1;
+  background-color: #12121f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  color: #8888aa;
+  margin-bottom: 2rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  border-bottom: 1px solid #2a2a42;
+  padding-bottom: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.label {
+  font-size: 0.85rem;
+  color: #8888aa;
+  font-weight: bold;
+}
+
+.input {
+  background: transparent;
+  border: none;
+  color: #e2e2f0;
+  font-size: 1rem;
+  padding: 0.2rem 0;
+  outline: none;
+  font-family: inherit;
+}
+
+.input::placeholder { color: #555570; }
+
+.error {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #3fcdf7;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-family: inherit;
+}
+
+.btn:hover { background-color: #5dd8ff; }
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.switchText {
+  margin-top: 1.5rem;
+  color: #8888aa;
+  font-size: 0.9rem;
+}
+
+.switchLink { color: #3fcdf7; }

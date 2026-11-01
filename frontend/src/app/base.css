@@ -1,0 +1,6 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background-color: #0a0a14; color: #e2e2f0; font-family: Georgia, serif; display: flex; flex-direction: column; min-height: 100vh; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+button { cursor: pointer; font-family: inherit; }
+input { font-family: inherit; }

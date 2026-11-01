@@ -1,0 +1,38 @@
+.layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.emptyImg {
+  width: 220px;
+  border-radius: 12px;
+  opacity: 0.8;
+}
+
+.emptyTitle {
+  font-size: 1.4rem;
+  color: #3fcdf7;
+  font-weight: bold;
+}
+
+.emptyText {
+  font-size: 0.9rem;
+  color: #8888aa;
+}

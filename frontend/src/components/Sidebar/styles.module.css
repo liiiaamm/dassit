@@ -1,0 +1,96 @@
+.sidebar {
+  width: 200px;
+  background-color: #0e0e1a;
+  border-right: 1px solid #2a2a42;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem;
+  border-bottom: 1px solid #2a2a42;
+}
+
+.navLink {
+  display: block;
+  padding: 0.4rem 0.7rem;
+  color: #8888aa;
+  font-size: 0.9rem;
+}
+
+.navLink:hover { color: #e2e2f0; }
+
+.chatSection {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.75rem;
+  color: #8888aa;
+}
+
+.newBtn {
+  background-color: #3fcdf7;
+  border: none;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.chatList {
+  padding: 0 0.4rem;
+}
+
+.chatItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.6rem;
+  color: #8888aa;
+  font-size: 0.85rem;
+}
+
+.chatItem:hover { color: #e2e2f0; }
+
+.chatName {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.delBtn {
+  background: none;
+  border: none;
+  color: #8888aa;
+  font-size: 0.7rem;
+  padding: 0.1rem 0.3rem;
+}
+
+.delBtn:hover { color: #ff6b6b; }
+
+.logoutBtn {
+  background: none;
+  border: none;
+  border-top: 1px solid #2a2a42;
+  color: #8888aa;
+  font-size: 0.85rem;
+  padding: 0.8rem;
+  text-align: left;
+  font-family: inherit;
+}
+
+.logoutBtn:hover { color: #ff6b6b; }
